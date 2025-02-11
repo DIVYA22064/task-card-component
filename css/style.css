@@ -31,16 +31,19 @@ body {
   color: #888;
   text-transform: uppercase;
   font-size: 0.75rem;
-  letter-spacing: 0.67rem;
+  letter-spacing: 0.3rem;
+  font-weight: 100;
 }
 .card h2 {
   font-size: 1.75rem;
   margin: 15px 0;
   font-weight: bold;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
 }
 .card p {
   font-size: 0.875rem;
-  color: #555;
+  color: #888;
   line-height: 1.5;
 }
 .price {
@@ -54,9 +57,10 @@ body {
   color: #147d38;
 }
 .price del {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #888;
-  margin-left: 0.625rem;
+  margin-left: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 .button {
@@ -66,17 +70,17 @@ body {
   padding: 0.75rem;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 10rem;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  margin-top: 0.8rem;
+  margin-top: 0.7rem;
 }
 .button img {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1rem;
+  height: 1rem;
   fill: white;
 }
 .button p {
